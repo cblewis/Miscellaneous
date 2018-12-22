@@ -58,6 +58,7 @@ Diceroll = [1,2,3,4,5,6,7,8,9,10,11,12]
 Roll = random.sample(range(Diceroll))
 if Roll >= 7:
     print("The adventurers were successful in storming the castle .")
+    time.sleep(3)
 else:
     print("The adventurers were not successful and are beaten back.")
 
@@ -65,5 +66,6 @@ while Roll >= 8:
     print("The adventurers next head toward " + random.choice(Castle) + ("."))
     if Roll >= 7:
         print("The adventurers were successful in storming the castle .")
+        time.sleep(3)
     else:
         print("The adventurers were not successful and are beaten back.")
