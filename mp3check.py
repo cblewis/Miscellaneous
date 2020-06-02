@@ -3,7 +3,8 @@ import os
 
 #Masterfully crafted by Cameron Lewis
 
-filepath = "C:/Users/Slim Low/Music/"
+#your directory here
+filepath = ""
 with open ('MP3 bitrate.txt', 'w', encoding='utf-8') as outputfile:
     outputfile.write("MP3 Filename, Bitrate" + "\n")
     try:
